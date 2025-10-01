@@ -30,7 +30,7 @@ export default ({
             des:["<v-btn @click=addToDo prepend-icon=mdi-home>","Add</v-btn> <v-btn @click=deleteToDo"," append-icon=mdi-delete>Delete</v-btn>"]
         },
          {
-            position:"CCC (  )",
+            position:"CCC (DDD  )",
             companyName:"CCC",
             des:["<v-btn @click=addToDo prepend-icon=mdi-home>Add</v-btn> <v-btn @click=deleteToDo append-icon=mdi-delete>Delete</v-btn>"]
         },
