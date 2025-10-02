@@ -89,8 +89,8 @@ export default({
           href:'#porjects-section'
         }
     ],
-    pdfUrl: '/Ms. Kyi Pyar Lwin Resume.pdf', 
-    pdfFileName: 'Ms. Kyi Pyar Lwin Resume.pdf'
+    pdfUrl: '/Ms_Kyi_Pyar_Lwin', 
+    pdfFileName: 'Ms_Kyi_Pyar_Lwin.pdf'
   }),
    
 })
