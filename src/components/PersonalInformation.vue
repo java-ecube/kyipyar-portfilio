@@ -36,6 +36,11 @@
      
     </v-col>
     </v-row>
+    <div>    
+    <a :href="pdfUrl" :download="pdfFileName" class="download-link">
+      Download CV
+    </a>
+  </div>
    
 
 </template>
@@ -83,7 +88,9 @@ export default({
           disabled:false,
           href:'#porjects-section'
         }
-    ]
+    ],
+    pdfUrl: '/Ms. Kyi Pyar Lwin Resume.pdf', 
+    pdfFileName: 'Ms. Kyi Pyar Lwin Resume.pdf'
   }),
    
 })

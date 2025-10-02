@@ -11,5 +11,4 @@ module.exports = defineConfig({
     ? '/kyipyar-portfilio/' // This is your repo's name
     : '/' // This is for local development
 
-
 })
