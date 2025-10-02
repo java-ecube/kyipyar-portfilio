@@ -1,4 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
+
+const REPO_NAME = 'my-vue-repo';
 module.exports = defineConfig({
   transpileDependencies: true,
 
@@ -8,7 +10,8 @@ module.exports = defineConfig({
 		}
   },
  publicPath: process.env.NODE_ENV === 'production'
-    ? '/kyipyar-portfilio/' // This is your repo's name
+    // ? '/kyipyar-portfilio/' // This is your repo's name
+    ? `/${REPO_NAME}/`
     : '/' // This is for local development
 
 })
