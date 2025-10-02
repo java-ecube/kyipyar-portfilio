@@ -1,6 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 
-const REPO_NAME = 'my-vue-repo';
+const REPO_NAME = 'kyipyar-portfilio';
 module.exports = defineConfig({
   transpileDependencies: true,
 
