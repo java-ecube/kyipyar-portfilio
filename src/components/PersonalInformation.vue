@@ -89,7 +89,7 @@ export default({
           href:'#porjects-section'
         }
     ],
-    pdfUrl: '/Ms_Kyi_Pyar_Lwin.pdf', 
+    pdfUrl: process.env.BASE_URL + '/Ms_Kyi_Pyar_Lwin.pdf', 
     pdfFileName: 'Ms_Kyi_Pyar_Lwin.pdf'
   }),
    
